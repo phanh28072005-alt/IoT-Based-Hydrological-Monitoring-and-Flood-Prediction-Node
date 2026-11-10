@@ -11,10 +11,7 @@
 3. [Kiến trúc hệ thống](#3-kiến-trúc-hệ-thống)
 4. [Phần cứng & Sơ đồ nối dây](#4-phần-cứng--sơ-đồ-nối-dây)
 5. [Thuật toán cảnh báo & MQTT](#5-thuật-toán-cảnh-báo--mqtt)
-6. [Mã nguồn tham khảo (PlatformIO)](#6-mã-nguồn-tham-khảo-platformio)
-7. [Node-RED Dashboard & Wokwi](#7-node-red-dashboard--wokwi)
-8. [Kịch bản kiểm thử & Hướng phát triển](#8-kịch-bản-kiểm-thử--hướng-phát-triển)
-9. [Tài liệu tham khảo](#9-tài-liệu-tham-khảo)
+6. [Kịch bản kiểm thử & Hướng phát triển](#8-kịch-bản-kiểm-thử--hướng-phát-triển)
 
 ---
 
