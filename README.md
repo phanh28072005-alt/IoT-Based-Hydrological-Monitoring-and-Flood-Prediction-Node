@@ -1,6 +1,6 @@
 # Trạm Quan Trắc Thuỷ Văn Và Cảnh Báo Sớm Lũ Lụt
 
-> **Mô tả:** Trạm cảnh báo lũ chi phí thấp sử dụng **ESP32**, giao thức **MQTT** và **Node-RED Dashboard** phục vụ quan trắc thủy văn và thu thập dữ liệu chuỗi thời gian cho mô hình dự báo.
+> **Mô tả:** Trạm cảnh báo lũ chi phí thấp sử dụng **ESP32**, giao thức **MQTT** và **Node-RED Dashboard** phục vụ quan trắc thủy văn và thu thập dữ liệu theo thời gian thực cho mô hình dự báo.
 
 ---
 
@@ -136,12 +136,12 @@ stateDiagram-v2
 
 ## 6. Kịch bản kiểm thử & Hướng phát triển
 
-### 8.1 Kịch bản kiểm thử (Test Cases)
+### 6.1 Kịch bản kiểm thử (Test Cases)
 1. **Dâng nước chậm/nhanh:** Kiểm tra khả năng kích hoạt `WARNING`/`ALARM` theo mực nước và tốc độ dâng.
 2. **Sự cố cảm biến siêu âm:** Ngắt chân siêu âm $\rightarrow$ Hệ thống chuyển sang chế độ `FAULT` và hoạt động hoàn toàn bằng phao cơ.
 3. **Mất kết nối mạng:** Kiểm tra còi hú tại chỗ vẫn hoạt động độc lập khi ngắt Wi-Fi.
 
-### 8.2 Hướng phát triển thực địa
+### 6.2 Hướng phát triển thực địa
 * Chuyển sang mô-đun **4G/LTE (A7670C)** hoặc **LoRa** cho vùng không có sóng Wi-Fi.
 * Đóng gói thiết bị theo chuẩn **IP66** ngoài trời với đầu siết cáp Cable Gland chống ẩm.
 * Thu thập log dữ liệu thời gian dài làm tập huấn luyện cho mô hình **Machine Learning (LSTM)** dự báo lũ.
